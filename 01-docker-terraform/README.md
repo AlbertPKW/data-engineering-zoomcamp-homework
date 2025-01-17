@@ -11,7 +11,7 @@ docker run -it --entrypoint=bash python:3.12.8
 pip --version
 ```
 
-![Question 1 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%201.jpg)
+![Question 1 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%201.jpg)
 
 
 ## Question 2. Understanding Docker networking and docker-compose
@@ -51,7 +51,7 @@ volumes:
 
 **Answer -> db:5432**
 
-![Question 2 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%202.jpg)
+![Question 2 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%202.jpg)
 
 
 ## Question 3. Trip Segmentation Count
@@ -76,7 +76,7 @@ SELECT
 FROM green_taxi_trips
 ```
 
-![Question 3 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%203%20updated.jpg)
+![Question 3 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%203%20updated.jpg)
 
 
 ## Question 4. Longest trip for each day
@@ -97,7 +97,7 @@ WHERE trip_distance = (
 )
 ```
 
-![Question 4 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%204.jpg)
+![Question 4 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%204.jpg)
 
 
 ## Question 5. Three biggest pickup zones
@@ -118,7 +118,7 @@ HAVING SUM(total_amount) > 13000
 ORDER BY SUM(total_amount) DESC
 ```
 
-![Question 5 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%205.jpg)
+![Question 5 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%205.jpg)
 
 
 ## Question 6. Largest tip
@@ -147,7 +147,7 @@ ORDER BY tip_amount DESC
 LIMIT 1
 ```
 
-![Question 6 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-myhomework/blob/main/images/Question%206.jpg)
+![Question 6 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/01-docker-terraform/Images/Question%206.jpg)
 
 
 ## Question 7. Terraform Workflow
