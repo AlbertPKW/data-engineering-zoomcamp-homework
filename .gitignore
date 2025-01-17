@@ -1,0 +1,9 @@
+#ignore data files like csv and parquet
+*.csv
+*.parquet
+*.exe
+
+#ignore this file path since git doesn't have permission to it
+01-docker-terraform/2_docker_sql/yellow_tripdata_2021-01.csv.gz
+01-docker-terraform/2_docker_sql/ny_taxi_postgres_data/base/16384/16420
+01-docker-terraform/1_terraform_gcp/.terraform/providers/registry.terraform.io/hashicorp/google/6.15.0/windows_amd64/terraform-provider-google_v6.15.0_x5.exe
