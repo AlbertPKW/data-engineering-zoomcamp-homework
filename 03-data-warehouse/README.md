@@ -129,3 +129,5 @@ It is best practice in Big Query to always cluster your data:
 No Points: Write a SELECT count(*) query FROM the materialized table you created. How many bytes does it estimate will be read? Why?
 
 **Answer -> BigQuery estimates that it will process 0 bytes when running a SQL query on a materialized table because materialized tables are fully precomputed and stored as physical tables in BigQuery**
+
+![Question 9 Workings](https://github.com/AlbertPKW/data-engineering-zoomcamp-homework/blob/main/03-data-warehouse/images/Qns%209.jpg)
