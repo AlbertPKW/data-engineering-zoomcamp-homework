@@ -13,7 +13,7 @@ models:
 
       - name: vendorid
         data_type: int64
-        description: ""
+        description: "Unique vendor id"
 
       - name: service_type
         data_type: string
