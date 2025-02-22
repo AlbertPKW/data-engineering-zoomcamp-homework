@@ -17,7 +17,7 @@ models:
 
       - name: service_type
         data_type: string
-        description: ""
+        description: "Type of Service"
 
       - name: ratecodeid
         data_type: int64
