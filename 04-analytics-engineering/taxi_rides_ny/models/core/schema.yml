@@ -9,7 +9,7 @@ models:
     columns:
       - name: tripid
         data_type: string
-        description: ""
+        description: "Unique identifier of Trip"
 
       - name: vendorid
         data_type: int64
