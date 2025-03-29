@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 # Data Engineering Zoomcamp Module 4 Homework: Analytics Engineering
 
 ## Question 1: Understanding dbt model resolution
@@ -401,3 +404,4 @@ select * from fhv_p90_rank
 where rank = 2
 order by pickup_zone
 ```
+>>>>>>> f9af180a83343be3183dec094afdd2b5681f1fe2
