@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Data Engineering Zoomcamp Module 4 Homework: Analytics Engineering
 
 ## Question 1: Understanding dbt model resolution
