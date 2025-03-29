@@ -9,7 +9,6 @@ models:
     columns:
       - name: tripid
         data_type: string
-<<<<<<< HEAD
         description: ""
 
       - name: vendorid
@@ -19,7 +18,6 @@ models:
       - name: service_type
         data_type: string
         description: ""
-=======
         description: "Unique identifier of Trip"
 
       - name: vendorid
@@ -29,7 +27,6 @@ models:
       - name: service_type
         data_type: string
         description: "Type of Service"
->>>>>>> f9af180a83343be3183dec094afdd2b5681f1fe2
 
       - name: ratecodeid
         data_type: int64
